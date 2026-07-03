@@ -1,17 +1,21 @@
-# Quartz v5
+# Superbrain: Base de Conocimiento Inteligente
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Este repositorio sirve como mi base de conocimiento personal sobre **Agentes de IA** y **Conocimiento Digital**.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Objetivos
+- Construir una base de conocimiento potente, accesible y fácil de mantener.
+- Gestionar el conocimiento generado por mis interacciones con agentes de IA.
+- Mantener una estructura de carpetas clara en `content/` para facilitar la navegación y síntesis.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Estructura
+- `content/`: Contiene todas las notas en Markdown.
+  - `raw/`: Material de origen (artículos, transcripciones).
+  - `entities/`: Fichas sobre agentes, modelos, empresas, personas.
+  - `concepts/`: Explicaciones técnicas y metodologías.
+  - `queries/`: Análisis y respuestas a investigaciones específicas.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Publicación
+Este sitio se publica automáticamente mediante **Quartz v5** a través de GitHub Pages.
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Autor
+fervilber
