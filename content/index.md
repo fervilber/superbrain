@@ -5,4 +5,5 @@
 - [[agentes-de-ia]] - Definición inicial.
 
 ## Conocimiento Digital
+- [[instalacion-hermes]] - Guía unificada de instalación.
 - [[blog/2026-07-03]] - Inauguración del Superbrain.
