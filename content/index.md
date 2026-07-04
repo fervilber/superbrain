@@ -6,4 +6,5 @@
 
 ## Conocimiento Digital
 - [[instalacion-hermes]] - Guía unificada de instalación.
+- [[blog/2026-07-04]] - Avances en seguridad y adopción empresarial.
 - [[blog/2026-07-03]] - Inauguración del Superbrain.
