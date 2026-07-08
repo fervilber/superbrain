@@ -1,11 +1,9 @@
-# Índice de Superbrain
+# Superbrain Index
+Bienvenido al cerebro centralizado de conocimiento.
 
-## Agentes de IA
-- [[agentes-de-ia]] - Definición inicial.
-- [[agentes-de-ia]] - Definición inicial.
+## Blog
+- [[2026-07-09|Resumen Diario 2026-07-09]]
 
-## Conocimiento Digital
-- [[instalacion-hermes]] - Guía unificada de instalación.
-- [[blog/2026-07-08]] - Ingestión diaria (sin cambios nuevos detectados).
-- [[blog/2026-07-04]] - Avances en integración IoT y evaluación continua.
-- [[blog/2026-07-03]] - Inauguración del Superbrain.
+## Entidades y Conceptos
+- [[Autonomous AI Agents]]
+- [[Hermes Agent]]
