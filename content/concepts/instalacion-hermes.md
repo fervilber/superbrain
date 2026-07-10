@@ -2,6 +2,7 @@
 title: Instalación de Hermes Agent
 created: 2026-07-03
 ---
+
 Guía técnica unificada basada en la documentación oficial de VilBer IA.
 
 ## Métodos de Instalación
@@ -12,5 +13,6 @@ Guía técnica unificada basada en la documentación oficial de VilBer IA.
    - Seguridad: Nunca ejecutar como `root`.
 
 ## Referencias
+
 - [[agentes-de-ia]]
 - Fuente: [Guía Unificada de Instalación](https://fervilber.github.io/digitalmen-web/wiki/ia_instalacion/instalacion_hermes_agent)
