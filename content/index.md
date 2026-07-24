@@ -19,8 +19,10 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[2026-07-21|Resumen Diario 2026-07-21]]
 - [[2026-07-22|Resumen Diario 2026-07-22]]
 - [[2026-07-23|Resumen Diario 2026-07-23]]
+- [[2026-07-24|Resumen Diario 2026-07-24]]
   19|
   20|## Entidades y Conceptos
 
 - [[Autonomous AI Agents]]
 - [[Hermes Agent]]
+- [[Hermes-Cron-Scheduling]]
