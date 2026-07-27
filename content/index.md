@@ -14,14 +14,15 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[2026-07-16|Resumen Diario 2026-07-16]]
 - [[2026-07-17|Resumen Diario 2026-07-17]]
 - [[2026-07-18|Resumen Diario 2026-07-18]]
-  17|- [[2026-07-19|Resumen Diario 2026-07-19]]
-  18|- [[2026-07-20|Resumen Diario 2026-07-20]]
+- [[2026-07-19|Resumen Diario 2026-07-19]]
+- [[2026-07-20|Resumen Diario 2026-07-20]]
 - [[2026-07-21|Resumen Diario 2026-07-21]]
 - [[2026-07-22|Resumen Diario 2026-07-22]]
 - [[2026-07-23|Resumen Diario 2026-07-23]]
 - [[2026-07-24|Resumen Diario 2026-07-24]]
 - [[2026-07-25|Resumen Diario 2026-07-25]]
 - [[2026-07-26|Resumen Diario 2026-07-26]]
+- [[2026-07-27|Resumen Diario 2026-07-27]]
 
 ## Entidades y Conceptos
 
