@@ -1,0 +1,15 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    { "type": "rectangle", "id": "r1", "x": 100, "y": 100, "width": 200, "height": 100, "roundness": { "type": 3 }, "backgroundColor": "#a5d8ff", "fillStyle": "solid", "boundElements": [{ "id": "t_r1", "type": "text" }] },
+    { "type": "text", "id": "t_r1", "x": 105, "y": 110, "width": 190, "height": 25, "text": "Hermes Agent", "fontSize": 20, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "r1", "originalText": "Hermes Agent", "autoResize": true },
+    { "type": "rectangle", "id": "r2", "x": 100, "y": 300, "width": 200, "height": 100, "roundness": { "type": 3 }, "backgroundColor": "#c3fae8", "fillStyle": "solid", "boundElements": [{ "id": "t_r2", "type": "text" }] },
+    { "type": "text", "id": "t_r2", "x": 105, "y": 310, "width": 190, "height": 25, "text": "Persistent Memory", "fontSize": 20, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "r2", "originalText": "Persistent Memory", "autoResize": true },
+    { "type": "arrow", "id": "a1", "x": 200, "y": 200, "width": 0, "height": 100, "points": [[0,0],[0,100]], "endArrowhead": "arrow" }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
