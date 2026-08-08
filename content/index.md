@@ -31,6 +31,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[2026-08-02|Informe-2026-08-02]]
 - [[2026-08-05|Informe-2026-08-05]]
 - [[2026-08-06|Informe-2026-08-06]]
+- [[Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin|Informe-2026-08-08 (Gestión de Películas y Biblioteca Jellyfin)]]
 
 ## Entidades y Conceptos
 
