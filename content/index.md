@@ -26,12 +26,14 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[2026-07-28|Resumen Diario 2026-07-28]]
 - [[2026-07-29|Resumen Diario 2026-07-29]]
 - [[2026-07-30|Resumen Diario 2026-07-30]]
-  29|- [[2026-07-31|Resumen Diario 2026-07-31]]
-  30|- [[2026-08-01|Resumen Diario 2026-08-01]]
+- [[2026-07-31|Resumen Diario 2026-07-31]]
+- [[2026-08-01|Resumen Diario 2026-08-01]]
 - [[2026-08-02|Informe-2026-08-02]]
 - [[2026-08-05|Informe-2026-08-05]]
 - [[2026-08-06|Informe-2026-08-06]]
 - [[Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin|Informe-2026-08-08 (Gestión de Películas y Biblioteca Jellyfin)]]
+- [[Informe-2026-08-11|Informe-2026-08-11 (Telegram Gateway en Hermes Agent)]]
+- [[Informe-2026-08-17|Informe-2026-08-17 (Seguridad en Agentes de IA y GPT-5.6 Sol)]]
 
 ## Entidades y Conceptos
 
