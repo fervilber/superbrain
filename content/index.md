@@ -34,6 +34,8 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin|Informe-2026-08-08 (Gestión de Películas y Biblioteca Jellyfin)]]
 - [[Informe-2026-08-11|Informe-2026-08-11 (Telegram Gateway en Hermes Agent)]]
 - [[Informe-2026-08-17|Informe-2026-08-17 (Seguridad en Agentes de IA y GPT-5.6 Sol)]]
+- [[Informe-2026-08-18-jellyfin|Informe-2026-08-18 (Aseguramiento de Jellyfin mediante Proxy Inverso Nginx y Docker)]]
+- [[Informe-2026-08-18|Informe-2026-08-18 (El Auge de los Agentes de IA en Producción y la Evolución Autocurativa de Hermes Agent)]]
 
 ## Entidades y Conceptos
 
