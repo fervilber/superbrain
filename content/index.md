@@ -36,6 +36,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-08-17|Informe-2026-08-17 (Seguridad en Agentes de IA y GPT-5.6 Sol)]]
 - [[Informe-2026-08-18-jellyfin|Informe-2026-08-18 (Aseguramiento de Jellyfin mediante Proxy Inverso Nginx y Docker)]]
 - [[Informe-2026-08-18|Informe-2026-08-18 (El Auge de los Agentes de IA en Producción y la Evolución Autocurativa de Hermes Agent)]]
+- [[Informe-2026-08-20|Informe-2026-08-20 (Interoperabilidad con A2A, Runtimes en V8 Kitesurf y Enrutamiento de Costes DeepSeek)]]
 - [[Informe-2026-08-19-seguridad|Informe-2026-08-19-seguridad (Seguridad y Salud de la Infraestructura VPS)]]
 - [[Informe-2026-08-19|Informe-2026-08-19 (Estandarización de Habilidades de Agentes, Protocolo A2A de Google y Seguridad Crítica en 2026)]]
 
