@@ -52,11 +52,11 @@ tmpfs           1.2G   20K  1.2G   1% /run/user/1000
 
 El análisis del estado de ejecución de los demonios de red expone la persistencia de las debilidades perimetrales identificadas con anterioridad:
 
-| Servicio | Estado de Ejecución | Puerto / Protocolo | Rol en la Infraestructura | Evaluación de Riesgo |
-| :--- | :--- | :--- | :--- | :--- |
-| **Nginx** | `active (running)` | TCP/80, TCP/443 | Servidor web de entrada, proxy inverso principal con cifrado TLS (Cinesfer). | **Nominal (Estable)**. Rendimiento y entrega óptimos. |
-| **SSH (sshd)** | `active (running)` | TCP/22 | Demonio de administración remota y transferencia de archivos seguros. | **Riesgo Alto**. Expuesto al tráfico global en el puerto por defecto. |
-| **Fail2ban** | `Not Found / Inactive` | N/A | Detección proactiva de intrusos e inyección dinámica de bloqueos en Firewall. | **Riesgo Crítico**. Sin protección activa contra fuerza bruta. |
+| Servicio       | Estado de Ejecución    | Puerto / Protocolo | Rol en la Infraestructura                                                     | Evaluación de Riesgo                                                  |
+| :------------- | :--------------------- | :----------------- | :---------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| **Nginx**      | `active (running)`     | TCP/80, TCP/443    | Servidor web de entrada, proxy inverso principal con cifrado TLS (Cinesfer).  | **Nominal (Estable)**. Rendimiento y entrega óptimos.                 |
+| **SSH (sshd)** | `active (running)`     | TCP/22             | Demonio de administración remota y transferencia de archivos seguros.         | **Riesgo Alto**. Expuesto al tráfico global en el puerto por defecto. |
+| **Fail2ban**   | `Not Found / Inactive` | N/A                | Detección proactiva de intrusos e inyección dinámica de bloqueos en Firewall. | **Riesgo Crítico**. Sin protección activa contra fuerza bruta.        |
 
 ---
 
@@ -85,6 +85,7 @@ Al ejecutarse el comando de análisis con privilegios, el motor de sudo exige de
 `sudo -n /usr/bin/grep "'Failed password'" /var/log/auth.log`
 
 Esto produce un problema de exclusión semántica:
+
 1. El comando se ejecuta con privilegios elevados satisfactoriamente sin requerir contraseña, pero el argumento real que recibe `grep` incluye comillas físicas internas (`'Failed password'`).
 2. En consecuencia, `grep` solo filtra aquellas líneas del log `/var/log/auth.log` que contienen comillas físicas integradas de manera literal.
 3. El único origen de estas comillas internas en el log es el propio registro de fallos del motor de `sudo` cuando registra el historial de comandos ejecutados de manera automatizada:
