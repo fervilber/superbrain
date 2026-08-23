@@ -2,6 +2,10 @@
 
 Bienvenido al cerebro centralizado de conocimiento.
 
+## Sesiones Técnicas
+
+- [[2026-08-23-seguridad-vps|2026-08-23 — Hardening de Seguridad del VPS]]
+
 ## Blog
 
 - [[2026-07-09|Resumen Diario 2026-07-09]]
