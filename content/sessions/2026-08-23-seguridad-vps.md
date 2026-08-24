@@ -29,18 +29,19 @@ Estadísticas de efectividad: en las primeras horas del día, el puerto 22 recib
 
 Se ha ajustado la configuración global de fail2ban para endurecer la protección del servicio SSH:
 
-| Parámetro | Valor Anterior | Valor Actual |
-|---|---|---|
-| `maxretry` (intentos máx.) | 5 | **3** |
-| `findtime` (ventana) | — | **30 minutos** |
-| `bantime` base | — | **10 minutos** |
-| `bantime.increment` | — | **true** |
-| `bantime.factor` | — | **1** (duplicación progresiva) |
-| `bantime.maxtime` | — | **1 semana** |
-| `bantime.rndtime` | — | **5 minutos** |
-| `bantime.overalljails` | — | **true** |
+| Parámetro                  | Valor Anterior | Valor Actual                   |
+| -------------------------- | -------------- | ------------------------------ |
+| `maxretry` (intentos máx.) | 5              | **3**                          |
+| `findtime` (ventana)       | —              | **30 minutos**                 |
+| `bantime` base             | —              | **10 minutos**                 |
+| `bantime.increment`        | —              | **true**                       |
+| `bantime.factor`           | —              | **1** (duplicación progresiva) |
+| `bantime.maxtime`          | —              | **1 semana**                   |
+| `bantime.rndtime`          | —              | **5 minutos**                  |
+| `bantime.overalljails`     | —              | **true**                       |
 
 El sistema de **baneo progresivo** (exponential backoff) funciona de la siguiente manera:
+
 - **1ª ofensa**: 3 fallos en 30 minutos → baneo de 10 minutos.
 - **2ª ofensa** (misma IP reincide): baneo de 20 minutos.
 - **3ª ofensa**: 40 minutos.
@@ -51,6 +52,7 @@ El sistema de **baneo progresivo** (exponential backoff) funciona de la siguient
 Además, `bantime.overalljails = true` hace que el contador de reincidencias sea global entre todas las cárceles (jails) de fail2ban, incluyendo la de Jellyfin. Una IP baneada por SSH que posteriormente ataque Jellyfin verá incrementado su tiempo de baneo acumulado.
 
 Estado actual de fail2ban:
+
 - **Total baneados por SSH**: 38 IPs (2 actualmente activas: `180.92.231.10` y `47.85.8.171`).
 - **Total intentos fallidos detectados**: 3,152 en la cárcel SSH.
 - **Cárceles activas**: `sshd` y `jellyfin`.
@@ -59,19 +61,20 @@ Estado actual de fail2ban:
 
 Se ha creado una nueva cárcel específica para proteger el servicio Jellyfin, que corre en Docker pero es accesible a través de Nginx como proxy inverso. Configuración:
 
-| Parámetro | Valor |
-|---|---|
+| Parámetro                 | Valor                                                       |
+| ------------------------- | ----------------------------------------------------------- |
 | **Endpoint monitorizado** | `POST/GET /Users/AuthenticateByName` con respuesta HTTP 401 |
-| **Fichero de logs** | `/var/log/nginx/access.log` |
-| **Filtro** | `/etc/fail2ban/filter.d/jellyfin.conf` |
-| **maxretry** | 5 |
-| **findtime** | 10 minutos |
-| **bantime** | 12 horas (fijo, no progresivo) |
-| **Puerto** | http,https |
+| **Fichero de logs**       | `/var/log/nginx/access.log`                                 |
+| **Filtro**                | `/etc/fail2ban/filter.d/jellyfin.conf`                      |
+| **maxretry**              | 5                                                           |
+| **findtime**              | 10 minutos                                                  |
+| **bantime**               | 12 horas (fijo, no progresivo)                              |
+| **Puerto**                | http,https                                                  |
 
 El filtro regex utilizado: `^<HOST> - - \[.*\] "(?:POST|GET) /Users/AuthenticateByName.*" 401 [0-9]+ .*$`
 
 Este regex ha sido verificado con pruebas unitarias:
+
 - **Login fallido simulado** (`POST /Users/AuthenticateByName 401`): **match exitoso** ✅ (1/1).
 - **Petición normal** (`GET /web/Content/styles.css 200`): **no match** ✅ (0/1), cero falsos positivos.
 - **Log real de producción** (371 líneas, sin login fallidos): **0 matches**, confirmando que no hay falsos positivos con el tráfico legítimo.
@@ -98,12 +101,14 @@ location = /Users/AuthenticateByName {
 ```
 
 **Parámetros:**
+
 - **rate**: 5 requests por minuto por IP.
 - **burst**: 5 (permite ráfagas de hasta 5 peticiones consecutivas antes de aplicar el límite).
 - **nodelay**: las peticiones dentro del burst se procesan inmediatamente sin cola.
 - **zona de memoria**: 10 MB (suficiente para miles de IPs simultáneas).
 
 **Prueba de funcionalidad** (10 peticiones consecutivas):
+
 - Peticiones 1-6 → HTTP 400 (pasaron a Jellyfin, login inválido).
 - Peticiones 7-10 → **HTTP 503** (bloqueadas por Nginx por exceder el rate limit).
 - Peticiones normales a `/` → HTTP 302 (sin restricción, tráfico legítimo no afectado).
@@ -112,24 +117,24 @@ location = /Users/AuthenticateByName {
 
 Adicionalmente, se han publicado los proyectos web alojados en `~/proyectos/` como subdirectorios de `cinesfer.duckdns.org`:
 
-| Proyecto | URL | Estado |
-|---|---|---|
-| Meetup Prueba | `/meetup-prueba/` | ✅ 200 |
-| Nóminas Hogar | `/nominas-hogar/` | ✅ 200 (requirió ajuste de permisos 600→644) |
-| Viaje Planner | `/viaje-planner/` | ✅ 200 |
-| Superbrain Wiki | `/superbrain/` | ✅ 200 |
+| Proyecto        | URL               | Estado                                       |
+| --------------- | ----------------- | -------------------------------------------- |
+| Meetup Prueba   | `/meetup-prueba/` | ✅ 200                                       |
+| Nóminas Hogar   | `/nominas-hogar/` | ✅ 200 (requirió ajuste de permisos 600→644) |
+| Viaje Planner   | `/viaje-planner/` | ✅ 200                                       |
+| Superbrain Wiki | `/superbrain/`    | ✅ 200                                       |
 
 Jellyfin permanece intacto en `/jellyfin/web/` y como aplicación principal en la raíz.
 
 ## Estado del Servidor Post-Hardening
 
-| Indicador | Valor |
-|---|---|
-| Uptime | 57 días |
-| Carga CPU | 0.15 |
-| RAM | 2 GiB / 11 GiB (18%) |
-| Disco | 41 GiB / 193 GiB (22%) |
-| Sesiones activas | 3 (vilber desde 45.93.58.153) |
+| Indicador          | Valor                                                    |
+| ------------------ | -------------------------------------------------------- |
+| Uptime             | 57 días                                                  |
+| Carga CPU          | 0.15                                                     |
+| RAM                | 2 GiB / 11 GiB (18%)                                     |
+| Disco              | 41 GiB / 193 GiB (22%)                                   |
+| Sesiones activas   | 3 (vilber desde 45.93.58.153)                            |
 | Servicios críticos | Nginx (OK), Jellyfin (healthy), fail2ban (OK, 6h activo) |
 
 ## Próximas Medidas Pendientes

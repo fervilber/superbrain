@@ -42,13 +42,13 @@ El almacenamiento secundario del sistema continúa operando dentro de rangos nor
 
 El estado de los demonios de red perimetrales ha experimentado una mejora sustancial en comparación con la auditoría del día anterior:
 
-| Servicio | Estado de Ejecución | Puerto / Protocolo | Rol en la Infraestructura | Evaluación de Riesgo |
-| :--- | :--- | :--- | :--- | :--- |
-| **Nginx** | `active (running)` | TCP/80, TCP/443 | Proxy inverso de entrada y cifrado TLS (Certbot). | **Nominal (Estable)**. Rendimiento excelente sin caídas. |
-| **SSH (sshd)** | `active (running)` | TCP/22 | Demonio de acceso administrativo y SFTP seguro. | **Riesgo Medio-Alto**. Puerto por defecto expuesto a internet. |
-| **Fail2ban** | `active (running)` | N/A | Detección de intrusos e inyección dinámica en iptables. | **Nominal (Mitigado)**. Activo y bloqueando atacantes. |
+| Servicio       | Estado de Ejecución | Puerto / Protocolo | Rol en la Infraestructura                               | Evaluación de Riesgo                                           |
+| :------------- | :------------------ | :----------------- | :------------------------------------------------------ | :------------------------------------------------------------- |
+| **Nginx**      | `active (running)`  | TCP/80, TCP/443    | Proxy inverso de entrada y cifrado TLS (Certbot).       | **Nominal (Estable)**. Rendimiento excelente sin caídas.       |
+| **SSH (sshd)** | `active (running)`  | TCP/22             | Demonio de acceso administrativo y SFTP seguro.         | **Riesgo Medio-Alto**. Puerto por defecto expuesto a internet. |
+| **Fail2ban**   | `active (running)`  | N/A                | Detección de intrusos e inyección dinámica en iptables. | **Nominal (Mitigado)**. Activo y bloqueando atacantes.         |
 
-*Nota:* Fail2ban se encuentra activo desde el **sábado 22 de agosto a las 15:29:19 CEST**, acumulando más de 15 horas de ejecución ininterrumpida y protegiendo de manera proactiva el puerto de SSH.
+_Nota:_ Fail2ban se encuentra activo desde el **sábado 22 de agosto a las 15:29:19 CEST**, acumulando más de 15 horas de ejecución ininterrumpida y protegiendo de manera proactiva el puerto de SSH.
 
 ---
 
