@@ -44,6 +44,8 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-08-20|Informe-2026-08-20 (Interoperabilidad con A2A, Runtimes en V8 Kitesurf y Enrutamiento de Costes DeepSeek)]]
 - [[Informe-2026-08-19-seguridad|Informe-2026-08-19-seguridad (Seguridad y Salud de la Infraestructura VPS)]]
 - [[Informe-2026-08-19|Informe-2026-08-19 (Estandarización de Habilidades de Agentes, Protocolo A2A de Google y Seguridad Crítica en 2026)]]
+- [[Informe-2026-09-01|Informe-2026-09-01 (Avances en Agentes de IA, Eficiencia de Tokens y Estado Perceptual)]]
+- [[Informe-2026-09-02|Informe-2026-09-02 (Optimización del Control Cognitivo de Metanivel, Composición Analítica de Informes y Diagnóstico de Fugas en Protocolos MCP)]]
 
 ## Entidades y Conceptos
 
