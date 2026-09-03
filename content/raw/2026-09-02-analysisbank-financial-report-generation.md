@@ -90,11 +90,11 @@ This three-field decomposition is a design hypothesis; we evaluate it against al
 
 Prior pattern libraries induce entries from problem-solving traces with observable success signals (cf §[2](#S2 "2 Related Work ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation")); expert reports offer no such structure, requiring the pipeline to reverse-engineer the three fields from finished prose. We design a four-pass pipeline to convert the corpus into a static library (Figure [2](#S3.F2 "Figure 2 ‣ 3.1 Analysis Representation ‣ 3 AnalysisBank ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation")).
 
-Induce identifies candidate _Analysis_ content in each report. Analytical moves are implicit in expert prose; this stage makes them explicit by locating text spans where the analyst performed a specific reasoning operation. These spans become the reference_text of each _Analysis_.
+Induce identifies candidate _Analysis_ content in each report. Analytical moves are implicit in expert prose; this stage makes them explicit by locating text spans where the analyst performed a specific reasoning operation. These spans become the reference*text of each \_Analysis*.
 
-Generalize extracts the data_signal and analytical_move from each identified span, producing the full three-field _Analysis_ of §[3.1](#S3.SS1 "3.1 Analysis Representation ‣ 3 AnalysisBank ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation"). The data signal is abstracted by stripping entity names, specific figures, and time references while preserving the conditional structure. The analytical move is similarly abstracted into a specific instruction that applies to any instance of the signal. A self-check enforces that each _Analysis_ would apply to the same pattern across different industries.
+Generalize extracts the data*signal and analytical_move from each identified span, producing the full three-field \_Analysis* of §[3.1](#S3.SS1 "3.1 Analysis Representation ‣ 3 AnalysisBank ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation"). The data signal is abstracted by stripping entity names, specific figures, and time references while preserving the conditional structure. The analytical move is similarly abstracted into a specific instruction that applies to any instance of the signal. A self-check enforces that each _Analysis_ would apply to the same pattern across different industries.
 
-Deduplicate drops redundant _Analyses_ across reports, since multiple expert reports often apply the same analytical move to similar signals. Candidates with data_signal embeddings above a cosine similarity threshold are grouped together and merged into a single _Analysis_, retaining the most general data signal and the most complete analytical move. This prevents duplicate entries from consuming retrieval budget and biasing toward head patterns.
+Deduplicate drops redundant _Analyses_ across reports, since multiple expert reports often apply the same analytical move to similar signals. Candidates with data*signal embeddings above a cosine similarity threshold are grouped together and merged into a single \_Analysis*, retaining the most general data signal and the most complete analytical move. This prevents duplicate entries from consuming retrieval budget and biasing toward head patterns.
 
 Quality-filter validates each _Analysis_ against three criteria aligned with the three fields: transferability (does the data signal generalize across industries?), actionability (would two analysts following the analytical move independently produce similar outputs?), and grounding (does the reference text show a real instance of the pattern?). Grounding failures are discarded; transferability or actionability failures are routed back to Generalize with a targeted rewrite instruction. The resulting _Analyses_ are industry-agnostic, executable, and empirically grounded.
 
@@ -117,11 +117,11 @@ The library built in §[3](#S3 "3 AnalysisBank ‣ AnalysisBank: An Expert Analy
 
 #### Stage 1: Signal extraction.
 
-Raw financial input is too broad to match effectively against the abstracted data_signal field. This stage reduces it to a list of typed _signals_, each consisting of a signal type (e.g., margin delta, volatility regime), a signal description summarizing the condition, and supporting source spans. For textual input (e.g., earnings-call transcripts), an LLM extracts the signals, each verified by a fact-checking pass ([Penman, 2013](#bib.bib40)). For structured input (e.g., market data), a Python program computes them deterministically from price and volume series ([Murphy, 1999](#bib.bib41)) and formats the results into the signal description for retrieval.
+Raw financial input is too broad to match effectively against the abstracted data*signal field. This stage reduces it to a list of typed \_signals*, each consisting of a signal type (e.g., margin delta, volatility regime), a signal description summarizing the condition, and supporting source spans. For textual input (e.g., earnings-call transcripts), an LLM extracts the signals, each verified by a fact-checking pass ([Penman, 2013](#bib.bib40)). For structured input (e.g., market data), a Python program computes them deterministically from price and volume series ([Murphy, 1999](#bib.bib41)) and formats the results into the signal description for retrieval.
 
 #### Stage 2: Per-type retrieval.
 
-Signal descriptions query AnalysisBank by cosine similarity against data_signal field of each library entry. To ensure the retrieved _Analyses_ cover diverse signal types rather than concentrating on one, each signal type contributes its best matching _Analysis_, and remaining slots are filled by global top-kk.
+Signal descriptions query AnalysisBank by cosine similarity against data*signal field of each library entry. To ensure the retrieved \_Analyses* cover diverse signal types rather than concentrating on one, each signal type contributes its best matching _Analysis_, and remaining slots are filled by global top-kk.
 
 #### Stage 3: Per-_Analysis_ execution.
 
@@ -273,7 +273,7 @@ Generated reports may contain analytical errors or unsupported inferences. We st
 
 ## Appendix A Extraction Pipeline Configuration
 
-This appendix details the hyperparameters, prompts, and implementation choices for the four-pass extraction pipeline (§[3.2](#S3.SS2 "3.2 Extraction Pipeline ‣ 3 AnalysisBank ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation")). The pipeline takes a CSV of expert analyst reports with columns sector, symbol, company, author, date, url, cleaned_text and writes a SQLite-backed _Analysis_ library.
+This appendix details the hyperparameters, prompts, and implementation choices for the four-pass extraction pipeline (§[3.2](#S3.SS2 "3.2 Extraction Pipeline ‣ 3 AnalysisBank ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation")). The pipeline takes a CSV of expert analyst reports with columns sector, symbol, company, author, date, url, cleaned*text and writes a SQLite-backed \_Analysis* library.
 
 ### A.1 Hyperparameters
 
@@ -304,7 +304,7 @@ Pass A issues one LLM call per report. The system prompt frames the task around 
 
 ### A.3 Pass B: Generalize
 
-Pass B issues one LLM call per candidate. The system prompt requires a JSON object with exactly the three fields used by the rest of the pipeline (data_signal, analytical_move, reference_text) and includes an explicit transferability test (“would this description match the same situation in a hospital, a retailer, and a defense contractor?”). The pass is callable with a retry_instruction that is appended to the system prompt; this slot is used by Pass D to request targeted re-generation when a _Analysis_ fails the transferability or actionability check.
+Pass B issues one LLM call per candidate. The system prompt requires a JSON object with exactly the three fields used by the rest of the pipeline (data*signal, analytical_move, reference_text) and includes an explicit transferability test (“would this description match the same situation in a hospital, a retailer, and a defense contractor?”). The pass is callable with a retry_instruction that is appended to the system prompt; this slot is used by Pass D to request targeted re-generation when a \_Analysis* fails the transferability or actionability check.
 
 Source metadata is attached deterministically after Pass B completes: sector, symbol, company, date, url, and author are copied from the CSV row, and the reference_text is wrapped with a trailing source label “— <company> <date>” before being stored as the first element of the reference_texts list.
 
@@ -314,7 +314,7 @@ Source metadata is attached deterministically after Pass B completes: sector, sy
 
 Pass C has two stages: a deterministic clustering step on embeddings and an LLM merge step per cluster. Candidates are embedded by their data_signal using text-embedding-ada-002 in batches of 100. Clustering is greedy single-linkage on the unit-normalized embeddings: each candidate is assigned to the first existing cluster whose centroid has cosine similarity ≥0.88\geq 0.88 with the candidate; otherwise a new cluster is opened. Centroids are running means re-normalized after each addition. Clusters larger than 30 candidates are split into chunks of 30 before being sent to the LLM merge step, to keep prompts within context.
 
-The LLM merge step receives the cluster as a JSON payload of (data_signal, analytical_move, reference_texts) triples and is asked to return a merged _Analysis_ per cluster. Reference texts are taken verbatim from the originating candidates rather than from the LLM output, since the LLM was observed to occasionally paraphrase what the prompt required to be verbatim spans. Provenance for a merged _Analysis_ is reconstructed by matching the merged data_signal back to the originating candidates and aggregating per-field via a scalar-or-list rule (single distinct value →\to scalar; multiple →\to list).
+The LLM merge step receives the cluster as a JSON payload of (data*signal, analytical_move, reference_texts) triples and is asked to return a merged \_Analysis* per cluster. Reference texts are taken verbatim from the originating candidates rather than from the LLM output, since the LLM was observed to occasionally paraphrase what the prompt required to be verbatim spans. Provenance for a merged _Analysis_ is reconstructed by matching the merged data_signal back to the originating candidates and aggregating per-field via a scalar-or-list rule (single distinct value →\to scalar; multiple →\to list).
 
 For incremental updates against an existing library, Pass C runs a cross-batch deduplication step before clustering: each new candidate is compared by cosine similarity against existing _Analysis_ embeddings, and candidates above the cross-batch threshold of 0.85 are paired with their nearest existing _Analysis_ and sent through Pass C as a targeted merge that preserves the existing _Analysis_’s ID (so downstream stores update rather than insert).
 
@@ -339,7 +339,7 @@ The pipeline parallelizes at two levels: rows of the input CSV are processed in 
 ![Refer to caption](2609.00818v1/bank_signal_move_heatmap_datatales.png)
 ![Refer to caption](2609.00818v1/bank_signal_move_heatmap_earnings.png)
 
-We characterize each library along two axes, using one keyword taxonomy per axis, since signals are noun-phrase data conditions and moves are verb-phrase operations. Each taxonomy is a hand-built, ordered list of categories defined by keyword patterns over the data_signal and analytical_move fields, refined against the libraries until coverage stabilized; we assign each _Analysis_ to the first matching category (single-label) and collect non-matches as _other_.
+We characterize each library along two axes, using one keyword taxonomy per axis, since signals are noun-phrase data conditions and moves are verb-phrase operations. Each taxonomy is a hand-built, ordered list of categories defined by keyword patterns over the data*signal and analytical_move fields, refined against the libraries until coverage stabilized; we assign each \_Analysis* to the first matching category (single-label) and collect non-matches as _other_.
 Figures [6](#A2.F6 "Figure 6 ‣ Appendix B Bank Details ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation") and [7](#A2.F7 "Figure 7 ‣ Appendix B Bank Details ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation") show the full signal-by-move distribution for both corpora.
 
 ## Appendix C Narration Pipeline Configuration
@@ -424,7 +424,7 @@ Stage 2 retrieves a slate of k=5k=5 _Analyses_ from AnalysisBank given the signa
 
 #### Embedding target.
 
-The default retrieves by cosine similarity between signal descriptions and the data_signal field of each _Analysis_. An ablation retrieves against reference_texts (concatenated with trailing source attributions stripped); this variant is reported in §[6.1](#S6.SS1 "6.1 Ablation Study ‣ 6 Results and Discussions ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation").
+The default retrieves by cosine similarity between signal descriptions and the data*signal field of each \_Analysis*. An ablation retrieves against reference_texts (concatenated with trailing source attributions stripped); this variant is reported in §[6.1](#S6.SS1 "6.1 Ablation Study ‣ 6 Results and Discussions ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation").
 
 #### Sector boost.
 
@@ -432,7 +432,7 @@ Each _Analysis_’s similarity score is multiplied by 1.2 if the _Analysis_’s 
 
 #### Retrieval mode.
 
-The default is _per-type_ retrieval: each fired signal type contributes one representative signal (selected by largest numeric magnitude using a per-type priority list — delta_bps for margin signals, magnitude_pct for volume, both old_guidance and new_guidance for guidance, etc.), and the best _Analysis_ for that representative is added to the slate. Types are processed in order of representative-signal significance, and remaining slate slots are filled by global cosine top-kk to avoid leaving the slate short when fewer than kk signal types fire. The alternative _cosine_ mode applies global top-kk directly without per-type structure.
+The default is _per-type_ retrieval: each fired signal type contributes one representative signal (selected by largest numeric magnitude using a per-type priority list — delta*bps for margin signals, magnitude_pct for volume, both old_guidance and new_guidance for guidance, etc.), and the best \_Analysis* for that representative is added to the slate. Types are processed in order of representative-signal significance, and remaining slate slots are filled by global cosine top-kk to avoid leaving the slate short when fewer than kk signal types fire. The alternative _cosine_ mode applies global top-kk directly without per-type structure.
 
 #### Retrieval backend.
 
@@ -448,7 +448,7 @@ _Analysis_ embeddings are computed once and stored in a SQLite cache keyed by _A
 
 ### C.3 Stage 3: Per-_Analysis_ analysis
 
-For each _Analysis_ in the Stage 2 slate, an independent LLM call applies the _Analysis_’s analytical_move to its triggering signals and supporting spans (transcript-side) or to the market data context (DataTales). The prompt forbids section headers and framing language, because Stage 4 imposes structure. Calls are issued in parallel across _Analyses_ via a thread pool.
+For each _Analysis_ in the Stage 2 slate, an independent LLM call applies the _Analysis_’s analytical*move to its triggering signals and supporting spans (transcript-side) or to the market data context (DataTales). The prompt forbids section headers and framing language, because Stage 4 imposes structure. Calls are issued in parallel across \_Analyses* via a thread pool.
 
 The user prompt assembles three blocks: PATTERN, the analytical_move to execute; SIGNALS, the triggering signals serialized as JSON (type and structured fields); and EXCERPTS, their verbatim supporting spans.
 
@@ -492,7 +492,7 @@ For DataTales inputs, a deterministic summarizer converts the OHLCV DataFrame in
 
 ### C.7 Concurrency and caching
 
-Stage 1 hierarchical extraction, Stage 3 per-_Analysis_ analysis, and validate-stage checks all use thread pools sized to the number of items processed (one thread per signal type, per _Analysis_, or per validation call). LLM responses are cached at the level of (prompt, system_prompt, temperature) tuples; cached calls are served without an API hit, which lets ablations re-use intermediate results across configurations that share earlier stages. _Analysis_ embeddings are persisted to SQLite as described in §[C.2](#A3.SS2 "C.2 Stage 2: Retrieval ‣ Appendix C Narration Pipeline Configuration ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation").
+Stage 1 hierarchical extraction, Stage 3 per-_Analysis_ analysis, and validate-stage checks all use thread pools sized to the number of items processed (one thread per signal type, per _Analysis_, or per validation call). LLM responses are cached at the level of (prompt, system*prompt, temperature) tuples; cached calls are served without an API hit, which lets ablations re-use intermediate results across configurations that share earlier stages. \_Analysis* embeddings are persisted to SQLite as described in §[C.2](#A3.SS2 "C.2 Stage 2: Retrieval ‣ Appendix C Narration Pipeline Configuration ‣ AnalysisBank: An Expert Analysis Pattern Library for Financial Report Generation").
 
 The full default configuration on Earnings2Insights requires roughly 1+17+1+5+1+5=301+17+1+5+1+5=30 LLM calls per report (11 if hierarchical mode condenses to a single call, 1717 for the per-type fan-out, 11 for fact validation, 55 for Stage 3, 11 for Stage 4, 55 for the validator) before any retries; on DataTales it is 5+1+5=115+1+5=11 since Stage 1 is deterministic. Retries add up to 5+15+1 calls per cycle, bounded by the retry budget.
 
