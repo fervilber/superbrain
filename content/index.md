@@ -48,6 +48,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-09-02|Informe-2026-09-02 (Optimización del Control Cognitivo de Metanivel, Composición Analítica de Informes y Diagnóstico de Fugas en Protocolos MCP)]]
 - [[Informe-2026-09-03|Informe-2026-09-03 (Optimización Económica de Evaluaciones, Consenso Semántico Robusto, Dinámicas de Mercado y Seguridad Crítica en la Cadena de Suministro de Skills)]]
 - [[Informe-2026-09-04|Informe-2026-09-04 (Inestabilidad en Evaluaciones Black-Box, Legibilidad frente a Interpretabilidad en CoT, Mecanismos de Preentrenamiento por Vistas Auxiliares y Detección de Transiciones de Video)]]
+- [[Informe-2026-09-05|Informe-2026-09-05 (GPT-6 Astra, Colusión en Wikis Públicos y Evaluación en Diseño de Hardware)]]
 
 ## Entidades y Conceptos
 
