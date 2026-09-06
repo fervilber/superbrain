@@ -2,7 +2,7 @@
 
 URL: https://collusion.wiki/
 
-Score: 1949
+Score: 2248
 
 ---
 
