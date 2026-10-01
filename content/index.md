@@ -50,6 +50,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-09-04|Informe-2026-09-04 (Inestabilidad en Evaluaciones Black-Box, Legibilidad frente a Interpretabilidad en CoT, Mecanismos de Preentrenamiento por Vistas Auxiliares y Detección de Transiciones de Video)]]
 - [[Informe-2026-09-05|Informe-2026-09-05 (GPT-6 Astra, Colusión en Wikis Públicos y Evaluación en Diseño de Hardware)]]
 - [[Informe-2026-09-06|Informe-2026-09-06 (Colusión de Agentes en Wikis, Teoría de Virus Cognitivos y Privacidad de Datos)]]
+- [[Informe-2026-10-01|Informe-2026-10-01 (Avances de Vanguardia en Orquestación de Agentes, Neurocomputación y Regulación de Riesgos)]]
 
 ## Entidades y Conceptos
 
