@@ -51,6 +51,8 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-09-05|Informe-2026-09-05 (GPT-6 Astra, Colusión en Wikis Públicos y Evaluación en Diseño de Hardware)]]
 - [[Informe-2026-09-06|Informe-2026-09-06 (Colusión de Agentes en Wikis, Teoría de Virus Cognitivos y Privacidad de Datos)]]
 - [[Informe-2026-10-01|Informe-2026-10-01 (Avances de Vanguardia en Orquestación de Agentes, Neurocomputación y Regulación de Riesgos)]]
+- [[Informe-2026-10-02|Informe-2026-10-02 (Dinámicas Críticas en la Programación por Agentes, Hitos de Simulación con GPT-6 Astra y la Ingeniería RAG de Nueva Generación)]]
+- [[Informe-2026-10-03|Informe-2026-10-03 (Desmitificación del RAG de Memoria, Gobernanza e Inmutabilidad con Sistemas de Registro, Población de Agentes y Cómputo Global, y Consentimiento OAuth Gestionado en Bedrock AgentCore)]]
 
 ## Entidades y Conceptos
 
