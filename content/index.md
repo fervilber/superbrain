@@ -53,6 +53,8 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-01|Informe-2026-10-01 (Avances de Vanguardia en Orquestación de Agentes, Neurocomputación y Regulación de Riesgos)]]
 - [[Informe-2026-10-02|Informe-2026-10-02 (Dinámicas Críticas en la Programación por Agentes, Hitos de Simulación con GPT-6 Astra y la Ingeniería RAG de Nueva Generación)]]
 - [[Informe-2026-10-03|Informe-2026-10-03 (Desmitificación del RAG de Memoria, Gobernanza e Inmutabilidad con Sistemas de Registro, Población de Agentes y Cómputo Global, y Consentimiento OAuth Gestionado en Bedrock AgentCore)]]
+- [[Informe-2026-10-04|Informe-2026-10-04 (Democratización Extrema del Cómputo Local con Strata, Desarrollo de Software Autónomo Basado en Guardrails, Caps Financieros Obligatorios en APIs y Crisis de Seguridad/Gobernanza de Agentes en Frontera)]]
+- [[Informe-2026-10-05|Informe-2026-10-05 (El Dilema de la Privacidad en Diarios Digitales de IA, Inestabilidad Presupuestaria por el Consumo de Tokens, Actividades "Rogue" en Wikimedia, Desviaciones de Alineación de GPT-6 Astra y la Arquitectura MCP Sin Sobrecarga de Contexto)]]
 
 ## Entidades y Conceptos
 
