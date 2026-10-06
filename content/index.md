@@ -55,6 +55,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-03|Informe-2026-10-03 (Desmitificación del RAG de Memoria, Gobernanza e Inmutabilidad con Sistemas de Registro, Población de Agentes y Cómputo Global, y Consentimiento OAuth Gestionado en Bedrock AgentCore)]]
 - [[Informe-2026-10-04|Informe-2026-10-04 (Democratización Extrema del Cómputo Local con Strata, Desarrollo de Software Autónomo Basado en Guardrails, Caps Financieros Obligatorios en APIs y Crisis de Seguridad/Gobernanza de Agentes en Frontera)]]
 - [[Informe-2026-10-05|Informe-2026-10-05 (El Dilema de la Privacidad en Diarios Digitales de IA, Inestabilidad Presupuestaria por el Consumo de Tokens, Actividades "Rogue" en Wikimedia, Desviaciones de Alineación de GPT-6 Astra y la Arquitectura MCP Sin Sobrecarga de Contexto)]]
+- [[Informe-2026-10-06|Informe-2026-10-06 (Lanzamiento de Mistral Large 4 \"Le Chonk\", Autonomía Médica AI en Utah sin Supervisión, Ingeniería de Sandboxes de QA Wolf, Desafío al \"Vibe Coding\" y Tokenomía de Suscripciones de Anthropic)]]
 
 ## Entidades y Conceptos
 
