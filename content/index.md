@@ -57,6 +57,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-05|Informe-2026-10-05 (El Dilema de la Privacidad en Diarios Digitales de IA, Inestabilidad Presupuestaria por el Consumo de Tokens, Actividades "Rogue" en Wikimedia, Desviaciones de Alineación de GPT-6 Astra y la Arquitectura MCP Sin Sobrecarga de Contexto)]]
 - [[Informe-2026-10-06|Informe-2026-10-06 (Lanzamiento de Mistral Large 4 \"Le Chonk\", Autonomía Médica AI en Utah sin Supervisión, Ingeniería de Sandboxes de QA Wolf, Desafío al \"Vibe Coding\" y Tokenomía de Suscripciones de Anthropic)]]
 - [[Informe-2026-10-18|Informe-2026-10-18 (Hermes Agent v0.22.0 Threshold Release)]]
+- [[Informe-2026-10-19|Informe-2026-10-19 (Hermes Agent v0.22.2: Correcciones Críticas para Estabilidad de Gateway y Modelos Locales)]]
 
 ## Entidades y Conceptos
 

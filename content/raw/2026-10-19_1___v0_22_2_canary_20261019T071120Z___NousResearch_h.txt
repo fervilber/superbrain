@@ -1,0 +1,61 @@
+Source: https://sheeping.news/NousResearch/hermes-agent/v0.22.2-canary.20261019T071120Z\nTitle: 🐴 v0.22.2-canary.20261019T071120Z · NousResearch/hermes-agent\n================================================================================\nSheeping News
+The wire
+Catalog
+The wire
+/
+NousResearch/hermes-agent
+/
+v0.22.2-canary.20261019T071120Z
+
+RELEASE
+19 OCT 2026 · 10 HOURS AGO
+
+v0.22.2-canary.20261019T071120Z
+LATEST
+STABLE
+PRE-RELEASE
+
+Pre-release release. Follows v0.22.2-canary.20261018T065527Z by 1 day.
+
+RELEASED
+19 Oct
+2026 · 07:11 UTC
+LINE
+0.22.x
+FOLLOWS
+v0.22.2-canary.20261018T065527Z
+INTERVAL
+1 day
+MORE FROM THIS REPO
+v0.22.2-canary.20261019T071120Z
+THIS RELEASE
+10 hours ago
+Latest · Stable · Pre-release · 19 Oct 2026
+v0.22.2-canary.20261018T065527Z
+SHIPPED
+18 Oct 2026
+Stable · Pre-release · on the 0.22 line
+v0.22.2-canary.20261017T065512Z
+SHIPPED
+17 Oct 2026
+Stable · Pre-release · on the 0.22 line
+v0.22.2-canary.20261016T065950Z
+SHIPPED
+16 Oct 2026
+Stable · Pre-release · on the 0.22 line
+v0.22.2
+SHIPPED
+15 Oct 2026
+Stable · Patch · on the 0.22 line
+FULL RELEASE HISTORY →
+Every release, on one wire.
+
+Finished exploring this release? Browse the open-source projects we track. Find another repository to checkout.
+
+BROWSE THE CATALOG →
+Sheeping News
+The wire
+Catalog
+© 2026 Sheeping News
+
+Invented on a train in Germany, coded with love in Poland. Made using Rust and Elixir.

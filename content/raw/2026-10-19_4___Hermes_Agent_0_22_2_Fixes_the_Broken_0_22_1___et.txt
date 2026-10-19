@@ -1,0 +1,90 @@
+Source: https://etherninja.org/hermes-agent-0-22-2-fixes-the-broken-0-22-1/\nTitle: 🐴 Hermes Agent 0.22.2 Fixes the Broken 0.22.1 – etherninja.org\n================================================================================\nSkip to content
+etherninja.org
+SAVING THE INTERNET ONE PACKET AT A TIME!
+HOME
+NEWS
+GOD
+OMARCHY
+AI & AGENTS
+HOW-TOS
+SECURITY
+ABOUT
+OMARCHY SERIES
+TESTIMONIES
+Subscribe via RSS
+nin@lab:~$ read --note hermes-agent-0-22-2-fixes-the-broken-0-22-1
+AI & AGENTS
+Hermes Agent 0.22.2 Fixes the Broken 0.22.1
+By st0rmshadow
+Oct 18, 2026
+Leave a comment
+
+Nous Research pushed Hermes Agent 0.22.2 on October 15 (still the latest release), and the notes are refreshingly honest: 0.22.1 was built from the wrong commit. It shipped unreleased gateway work and could leave the Microsoft Store app stuck on “Connecting.” 0.22.2 is what 0.22.1 was meant to be.
+
+The gateway starts properly after a reboot. It used to mistake a reused PID for a running gateway and refuse to start under systemd, launchd or Docker.
+Long local-model turns survive better on laptops, with streaming progress and sleep-aware stall timers.
+Known issue: sessions run under the 0.22.1 gateway can’t be deleted in 0.22.2.
+
+The local-model fixes are the ones I care about. If you run Hermes against a local server, update.
+
+Happy Hacking!
+
+References & Further Reading
+Hermes Agent releases
+Agents
+AI
+Hermes
+Local AI
+Subscribe (RSS)
+Follow AI & Agents via RSS
+$ related --limit 3
+Claude Mythos 5 Designs Quantum Circuits That Beat the Best Published Ones
+October 18, 2026
+OpenCode 1.19.3: /copy Gets Smarter, Headless Login Fixed
+October 18, 2026
+GitHub Copilot in Chat Apps Now Works Across Multiple Repos
+October 18, 2026
+Post navigation
+PREVIOUS
+GitHub Copilot in Chat Apps Now Works Across Multiple Repos
+NEXT
+OpenCode 1.19.3: /copy Gets Smarter, Headless Login Fixed
+LEAVE A NOTE
+
+Your email address will not be published. Required fields are marked *
+
+Comment *
+
+Name *
+
+Email *
+
+Website
+
+Save my name, email, and website in this browser for the next time I comment.
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+ARCHIVES
+October 2026
+September 2026
+August 2022
+July 2022
+CATEGORIES
+AI & Agents
+Apple
+Blogs
+EtherNinja Announcements
+God
+How-Tos
+Labs
+Mondays
+Networking
+News
+Omarchy
+Security
+Uncategorized
+Work
+© etherninja.org · etherninja.org
+Also: etherninja.net · 
+Subscribe (RSS)

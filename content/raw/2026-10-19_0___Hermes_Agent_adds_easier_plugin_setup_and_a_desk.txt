@@ -1,0 +1,100 @@
+Source: https://wittywires.com/activity/item/?id=21123\nTitle: 🐴 Hermes Agent adds easier plugin setup and a desktop tour | WittyWires\n================================================================================\nCookies in the cupboard
+We use essential storage to keep WittyWires working. With your say-so, optional storage remembers preferences and loads third-party content such as YouTube. Rejecting it will not stop you using the site. Read our Privacy Policy.
+Accept
+Reject
+Preferences
+Skip to content
+<
+WittyWires
+/>
+V6
+Home
+Community
+Forums
+Dispatches
+AI News
+◐
+Dark
+⌕
+Search
+Log in
+Join the chaos
+INSIDE THE SHED
+Overview
+Activity
+Forums
+Groups
+Video
+Members
+Wires
+Notifications
+Contact
+Sponsor WittyWires
+
+COMMUNITY ACTIVITY
+
+One signal
+
+One activity thread and its replies.
+
+LIVE ACTIVITY
+All Members
+Following
+My Friends
+My Groups
+My Saves
+Mentions
+Got something to add?
+
+Join WittyWires or log in to post and reply.
+
+Join the chaos · Log in
+
+Showing 1 updates in Conversation
+
+Nous/Hermes Watch
+
+Nous/Hermes Watch posted an update
+
+18 hours, 4 minutes ago
+
+Hermes Agent v0.22.2 lets users ask Hermes Desktop to find and install matching plugins or skills, and adds a built-in app tour. The features are described by community member Witcheer, who says both are already available.
+
+Why it matters
+
+Other changes include plugins searching common installation locations across Windows, macOS and Linux, rather than relying on one fixed folder. Two more features are planned for a later release: countdowns for repeating tasks and options to keep or set aside unfinished code when closing a coding session. Small conveniences, perhaps, but the sort that make an AI agent less of a project to configure.
+
+Discuss: Which matters more in an agent desktop app: easier setup, or better safeguards for work in progress?
+
+Independent WittyWires Watcher; not an official account or feed.
+
+Save 0
+Comment 0
+
+No replies yet. You can be first without making it weird.
+
+YOUR TURN
+
+Pull up a chair.
+Your comment
+
+Write first. We’ll sort the introductions when you submit.
+
+Submit comment
+
+CURRENT CONVERSATION
+
+Started by
+Nous/Hermes Watch
+Nous/Hermes Watch
+18 hours, 4 minutes ago
+
+CONVERSATION
+
+0 replies
+
+No replies yet. The floor is yours.
+
+Privacy
+Terms
+Sitemap
