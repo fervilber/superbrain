@@ -59,6 +59,9 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-18|Informe-2026-10-18 (Hermes Agent v0.22.0 Threshold Release)]]
 - [[Informe-2026-10-19|Informe-2026-10-19 (Hermes Agent v0.22.2: Correcciones Críticas para Estabilidad de Gateway y Modelos Locales)]]
 - [[Informe-2026-10-23|Informe-2026-10-23 (Agentes de IA, Plataformas Multi-Agente, Seguridad y Hermes Agent)]]
+- [[Informe-2026-10-24|Informe-2026-10-24 (Runtimes de agentes, MCP sin estado y la consolidación de la capa de protocolos)]]
+- [[Informe-2026-10-25|Informe-2026-10-25 (La topología manda: 1.024 workers frente a un solo bucle)]]
+- [[Informe-2026-10-26|Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API y contención)]]
 
 ## Entidades y Conceptos
 
