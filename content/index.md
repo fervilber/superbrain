@@ -58,6 +58,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-06|Informe-2026-10-06 (Lanzamiento de Mistral Large 4 \"Le Chonk\", Autonomía Médica AI en Utah sin Supervisión, Ingeniería de Sandboxes de QA Wolf, Desafío al \"Vibe Coding\" y Tokenomía de Suscripciones de Anthropic)]]
 - [[Informe-2026-10-18|Informe-2026-10-18 (Hermes Agent v0.22.0 Threshold Release)]]
 - [[Informe-2026-10-19|Informe-2026-10-19 (Hermes Agent v0.22.2: Correcciones Críticas para Estabilidad de Gateway y Modelos Locales)]]
+- [[Informe-2026-10-23|Informe-2026-10-23 (Agentes de IA, Plataformas Multi-Agente, Seguridad y Hermes Agent)]]
 
 ## Entidades y Conceptos
 
