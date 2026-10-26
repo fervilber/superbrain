@@ -61,7 +61,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-23|Informe-2026-10-23 (Agentes de IA, Plataformas Multi-Agente, Seguridad y Hermes Agent)]]
 - [[Informe-2026-10-24|Informe-2026-10-24 (Runtimes de agentes, MCP sin estado y la consolidación de la capa de protocolos)]]
 - [[Informe-2026-10-25|Informe-2026-10-25 (La topología manda: 1.024 workers frente a un solo bucle)]]
-- [[Informe-2026-10-26|Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API y contención)]]
+- [[Informe-2026-10-26|Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API, contención y el harness como producto)]]
 
 ## Entidades y Conceptos
 
