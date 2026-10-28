@@ -63,6 +63,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-25|Informe-2026-10-25 (La topología manda: 1.024 workers frente a un solo bucle)]]
 - [[Informe-2026-10-26|Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API, contención y el harness como producto)]]
 - [[Informe-2026-10-27|Informe-2026-10-27 (Plantilla con nómina, perímetros que heredan y el precio de un agente: SK Telecom, VPC Service Controls, hardening de gh-aw y MCP empresarial)]]
+- [[Informe-2026-10-28|Informe-2026-10-28 (El agente entra en nómina: identidad y credenciales efímeras en IBM, MetaHarness y el linaje firmado, contratos para agentes en Zocdoc y la superficie de ataque agéntica)]]
 
 ## Entidades y Conceptos
 
