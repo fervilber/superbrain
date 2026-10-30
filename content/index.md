@@ -65,6 +65,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-27|Informe-2026-10-27 (Plantilla con nómina, perímetros que heredan y el precio de un agente: SK Telecom, VPC Service Controls, hardening de gh-aw y MCP empresarial)]]
 - [[Informe-2026-10-28|Informe-2026-10-28 (El agente entra en nómina: identidad y credenciales efímeras en IBM, MetaHarness y el linaje firmado, contratos para agentes en Zocdoc y la superficie de ataque agéntica)]]
 - [[Informe-2026-10-29|Informe-2026-10-29 (Del proceso al perímetro: sesión persistente en la nube con GitHub Copilot, MCP como superficie de ataque — 15.465 servidores sin revisión —, malware sobre binarios firmados y el roadmap de identidad de agente)]]
+- [[Informe-2026-10-30|Informe-2026-10-30 (MCP sin estado entra en producción y la inyección indirecta deja de ser teoría: la especificación 2026-07-28, gateways y gobernanza, marcos multi-agente y el mapa de frameworks de octubre 2026)]]
 
 ## Entidades y Conceptos
 
