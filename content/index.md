@@ -69,6 +69,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-10-31|Informe-2026-10-31 (El agente que espera: Infinity y los 75.000 agentes suspendidos, TAO y el scheduler tool-aware, el compilador como guardrail en Hydro, el hueco de trace ID en MCP, los agentes dormidos de Arrakis y la contención según el S-1 de Anthropic)]]
 - [[Informe-2026-11-01|Informe-2026-11-01 (La unidad de evaluación se mueve: del resultado a la trayectoria — Análisis de Anthropic sobre datasets que evaden monitores, la auditoría de Fangcun a DeepSeek V4.1 Flash y el «goal fixation», Prefix Executability y el pre-crimen por activaciones, Android Studio y el Agent Client Protocol, y los pesos abiertos de Mistral Large 4)]]
 - [[Informe-2026-11-02|Informe-2026-11-02 (El agente deja de esperar el turno: la escucha proactiva del Super-Agent de DeepSeek, la jaula de NVIDIA que no depende del modelo (OpenShell y Sentry), el expediente MCP de 2026 y por qué el cumplimiento de protocolos no es gobierno)]]
+- [[Informe-2026-11-03|Informe-2026-11-03 (La verificación sale del modelo: Coati y la ejecución anclada al anfitrión, los Message Threads de Anthropic y el estado autoritativo en el servidor, el plugin de Google Cloud con guardrails ejecutados, la telemetría de OpenAI contra la desalineación, y MAC-Bench/Kradle midiendo colaboración y honestidad reales)]]
 
 ## Entidades y Conceptos
 
