@@ -71,6 +71,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 - [[Informe-2026-11-02|Informe-2026-11-02 (El agente deja de esperar el turno: la escucha proactiva del Super-Agent de DeepSeek, la jaula de NVIDIA que no depende del modelo (OpenShell y Sentry), el expediente MCP de 2026 y por qué el cumplimiento de protocolos no es gobierno)]]
 - [[Informe-2026-11-03|Informe-2026-11-03 (La verificación sale del modelo: Coati y la ejecución anclada al anfitrión, los Message Threads de Anthropic y el estado autoritativo en el servidor, el plugin de Google Cloud con guardrails ejecutados, la telemetría de OpenAI contra la desalineación, y MAC-Bench/Kradle midiendo colaboración y honestidad reales)]]
 - [[Informe-2026-11-04|Informe-2026-11-04 (El agente entra en mantenimiento: el bucle de mejora continua de Oumi/FAiE y Mage-VL-Cowork entrenando pesos con GRPO, el coste por tarea como eje con GDPx, el Kill Switch de CrowdStrike y la advertencia de Apple, y la deriva silenciosa de las descripciones de herramientas MCP)]]
+- [[Informe-2026-11-05|Informe-2026-11-05 (El agente encuentra su sistema operativo: la donación de Agent Substrate, gVisor y OpenRL a la CNCF con Agent Substrate 1.0 y GA en GKE, la separación del kernel frente a las capacidades en Octopus-SI-OS y AgentScope-Java, los agentes gestionados de Mistral Studio con ejecución duradera, la gobernanza del ciclo de vida con CrowdStrike/Kong y el veredicto de CloudOpsBench sobre el razonamiento)]]
 
 ## Entidades y Conceptos
 
