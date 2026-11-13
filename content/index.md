@@ -4,6 +4,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 
 ## Sesiones Técnicas
 
+- [[2026-11-13-biblioteca-calibre-vps|2026-11-13 — Biblioteca Calibre autoalojada en el VPS (instalación sin root, systemd de usuario y /libros)]]
 - [[2026-08-23-seguridad-vps|2026-08-23 — Hardening de Seguridad del VPS]]
 
 ## Blog
