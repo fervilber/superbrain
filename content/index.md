@@ -4,85 +4,85 @@ Bienvenido al cerebro centralizado de conocimiento.
 
 ## Sesiones Técnicas
 
-- [[2026-11-13-biblioteca-calibre-vps|2026-11-13 — Biblioteca Calibre autoalojada en el VPS (instalación sin root, systemd de usuario y /libros)]]
-- [[2026-08-23-seguridad-vps|2026-08-23 — Hardening de Seguridad del VPS]]
+- [2026-11-13 — Biblioteca Calibre autoalojada en el VPS (instalación sin root, systemd de usuario y /libros)](sessions/2026-11-13-biblioteca-calibre-vps.md)
+- [2026-08-23 — Hardening de Seguridad del VPS](sessions/2026-08-23-seguridad-vps.md)
 
 ## Blog
 
-- [[2026-07-09|Resumen Diario 2026-07-09]]
-- [[2026-07-10|Resumen Diario 2026-07-10]]
-- [[2026-07-11|Resumen Diario 2026-07-11]]
-- [[2026-07-12|Resumen Diario 2026-07-12]]
-- [[2026-07-13|Resumen Diario 2026-07-13]]
-- [[2026-07-14|Resumen Diario 2026-07-14]]
-- [[2026-07-15|Resumen Diario 2026-07-15]]
-- [[2026-07-16|Resumen Diario 2026-07-16]]
-- [[2026-07-17|Resumen Diario 2026-07-17]]
-- [[2026-07-18|Resumen Diario 2026-07-18]]
-- [[2026-07-19|Resumen Diario 2026-07-19]]
-- [[2026-07-20|Resumen Diario 2026-07-20]]
-- [[2026-07-21|Resumen Diario 2026-07-21]]
-- [[2026-07-22|Resumen Diario 2026-07-22]]
-- [[2026-07-23|Resumen Diario 2026-07-23]]
-- [[2026-07-24|Resumen Diario 2026-07-24]]
-- [[2026-07-25|Resumen Diario 2026-07-25]]
-- [[2026-07-26|Resumen Diario 2026-07-26]]
-- [[2026-07-27|Resumen Diario 2026-07-27]]
-- [[2026-07-28|Resumen Diario 2026-07-28]]
-- [[2026-07-29|Resumen Diario 2026-07-29]]
-- [[2026-07-30|Resumen Diario 2026-07-30]]
-- [[2026-07-31|Resumen Diario 2026-07-31]]
-- [[2026-08-01|Resumen Diario 2026-08-01]]
-- [[2026-08-02|Informe-2026-08-02]]
-- [[2026-08-05|Informe-2026-08-05]]
-- [[2026-08-06|Informe-2026-08-06]]
-- [[Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin|Informe-2026-08-08 (Gestión de Películas y Biblioteca Jellyfin)]]
-- [[Informe-2026-08-11|Informe-2026-08-11 (Telegram Gateway en Hermes Agent)]]
-- [[Informe-2026-08-17|Informe-2026-08-17 (Seguridad en Agentes de IA y GPT-5.6 Sol)]]
-- [[Informe-2026-08-18-jellyfin|Informe-2026-08-18 (Aseguramiento de Jellyfin mediante Proxy Inverso Nginx y Docker)]]
-- [[Informe-2026-08-18|Informe-2026-08-18 (El Auge de los Agentes de IA en Producción y la Evolución Autocurativa de Hermes Agent)]]
-- [[Informe-2026-08-21|Informe-2026-08-21 (Convergencia de Frameworks Agénticos, Consolidación de Protocolos A2A/MCP y Resolución de Conjeturas Complejas mediante Grafos de Subagentes)]]
-- [[Informe-2026-08-20|Informe-2026-08-20 (Interoperabilidad con A2A, Runtimes en V8 Kitesurf y Enrutamiento de Costes DeepSeek)]]
-- [[Informe-2026-08-19-seguridad|Informe-2026-08-19-seguridad (Seguridad y Salud de la Infraestructura VPS)]]
-- [[Informe-2026-08-19|Informe-2026-08-19 (Estandarización de Habilidades de Agentes, Protocolo A2A de Google y Seguridad Crítica en 2026)]]
-- [[Informe-2026-09-01|Informe-2026-09-01 (Avances en Agentes de IA, Eficiencia de Tokens y Estado Perceptual)]]
-- [[Informe-2026-09-02|Informe-2026-09-02 (Optimización del Control Cognitivo de Metanivel, Composición Analítica de Informes y Diagnóstico de Fugas en Protocolos MCP)]]
-- [[Informe-2026-09-03|Informe-2026-09-03 (Optimización Económica de Evaluaciones, Consenso Semántico Robusto, Dinámicas de Mercado y Seguridad Crítica en la Cadena de Suministro de Skills)]]
-- [[Informe-2026-09-04|Informe-2026-09-04 (Inestabilidad en Evaluaciones Black-Box, Legibilidad frente a Interpretabilidad en CoT, Mecanismos de Preentrenamiento por Vistas Auxiliares y Detección de Transiciones de Video)]]
-- [[Informe-2026-09-05|Informe-2026-09-05 (GPT-6 Astra, Colusión en Wikis Públicos y Evaluación en Diseño de Hardware)]]
-- [[Informe-2026-09-06|Informe-2026-09-06 (Colusión de Agentes en Wikis, Teoría de Virus Cognitivos y Privacidad de Datos)]]
-- [[Informe-2026-10-01|Informe-2026-10-01 (Avances de Vanguardia en Orquestación de Agentes, Neurocomputación y Regulación de Riesgos)]]
-- [[Informe-2026-10-02|Informe-2026-10-02 (Dinámicas Críticas en la Programación por Agentes, Hitos de Simulación con GPT-6 Astra y la Ingeniería RAG de Nueva Generación)]]
-- [[Informe-2026-10-03|Informe-2026-10-03 (Desmitificación del RAG de Memoria, Gobernanza e Inmutabilidad con Sistemas de Registro, Población de Agentes y Cómputo Global, y Consentimiento OAuth Gestionado en Bedrock AgentCore)]]
-- [[Informe-2026-10-04|Informe-2026-10-04 (Democratización Extrema del Cómputo Local con Strata, Desarrollo de Software Autónomo Basado en Guardrails, Caps Financieros Obligatorios en APIs y Crisis de Seguridad/Gobernanza de Agentes en Frontera)]]
-- [[Informe-2026-10-05|Informe-2026-10-05 (El Dilema de la Privacidad en Diarios Digitales de IA, Inestabilidad Presupuestaria por el Consumo de Tokens, Actividades "Rogue" en Wikimedia, Desviaciones de Alineación de GPT-6 Astra y la Arquitectura MCP Sin Sobrecarga de Contexto)]]
-- [[Informe-2026-10-06|Informe-2026-10-06 (Lanzamiento de Mistral Large 4 \"Le Chonk\", Autonomía Médica AI en Utah sin Supervisión, Ingeniería de Sandboxes de QA Wolf, Desafío al \"Vibe Coding\" y Tokenomía de Suscripciones de Anthropic)]]
-- [[Informe-2026-10-18|Informe-2026-10-18 (Hermes Agent v0.22.0 Threshold Release)]]
-- [[Informe-2026-10-19|Informe-2026-10-19 (Hermes Agent v0.22.2: Correcciones Críticas para Estabilidad de Gateway y Modelos Locales)]]
-- [[Informe-2026-10-23|Informe-2026-10-23 (Agentes de IA, Plataformas Multi-Agente, Seguridad y Hermes Agent)]]
-- [[Informe-2026-10-24|Informe-2026-10-24 (Runtimes de agentes, MCP sin estado y la consolidación de la capa de protocolos)]]
-- [[Informe-2026-10-25|Informe-2026-10-25 (La topología manda: 1.024 workers frente a un solo bucle)]]
-- [[Informe-2026-10-26|Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API, contención y el harness como producto)]]
-- [[Informe-2026-10-27|Informe-2026-10-27 (Plantilla con nómina, perímetros que heredan y el precio de un agente: SK Telecom, VPC Service Controls, hardening de gh-aw y MCP empresarial)]]
-- [[Informe-2026-10-28|Informe-2026-10-28 (El agente entra en nómina: identidad y credenciales efímeras en IBM, MetaHarness y el linaje firmado, contratos para agentes en Zocdoc y la superficie de ataque agéntica)]]
-- [[Informe-2026-10-29|Informe-2026-10-29 (Del proceso al perímetro: sesión persistente en la nube con GitHub Copilot, MCP como superficie de ataque — 15.465 servidores sin revisión —, malware sobre binarios firmados y el roadmap de identidad de agente)]]
-- [[Informe-2026-10-30|Informe-2026-10-30 (MCP sin estado entra en producción y la inyección indirecta deja de ser teoría: la especificación 2026-07-28, gateways y gobernanza, marcos multi-agente y el mapa de frameworks de octubre 2026)]]
-- [[Informe-2026-10-31|Informe-2026-10-31 (El agente que espera: Infinity y los 75.000 agentes suspendidos, TAO y el scheduler tool-aware, el compilador como guardrail en Hydro, el hueco de trace ID en MCP, los agentes dormidos de Arrakis y la contención según el S-1 de Anthropic)]]
-- [[Informe-2026-11-01|Informe-2026-11-01 (La unidad de evaluación se mueve: del resultado a la trayectoria — Análisis de Anthropic sobre datasets que evaden monitores, la auditoría de Fangcun a DeepSeek V4.1 Flash y el «goal fixation», Prefix Executability y el pre-crimen por activaciones, Android Studio y el Agent Client Protocol, y los pesos abiertos de Mistral Large 4)]]
-- [[Informe-2026-11-02|Informe-2026-11-02 (El agente deja de esperar el turno: la escucha proactiva del Super-Agent de DeepSeek, la jaula de NVIDIA que no depende del modelo (OpenShell y Sentry), el expediente MCP de 2026 y por qué el cumplimiento de protocolos no es gobierno)]]
-- [[Informe-2026-11-03|Informe-2026-11-03 (La verificación sale del modelo: Coati y la ejecución anclada al anfitrión, los Message Threads de Anthropic y el estado autoritativo en el servidor, el plugin de Google Cloud con guardrails ejecutados, la telemetría de OpenAI contra la desalineación, y MAC-Bench/Kradle midiendo colaboración y honestidad reales)]]
-- [[Informe-2026-11-04|Informe-2026-11-04 (El agente entra en mantenimiento: el bucle de mejora continua de Oumi/FAiE y Mage-VL-Cowork entrenando pesos con GRPO, el coste por tarea como eje con GDPx, el Kill Switch de CrowdStrike y la advertencia de Apple, y la deriva silenciosa de las descripciones de herramientas MCP)]]
-- [[Informe-2026-11-05|Informe-2026-11-05 (El agente encuentra su sistema operativo: la donación de Agent Substrate, gVisor y OpenRL a la CNCF con Agent Substrate 1.0 y GA en GKE, la separación del kernel frente a las capacidades en Octopus-SI-OS y AgentScope-Java, los agentes gestionados de Mistral Studio con ejecución duradera, la gobernanza del ciclo de vida con CrowdStrike/Kong y el veredicto de CloudOpsBench sobre el razonamiento)]]
-- [[Informe-2026-11-06|Informe-2026-11-06 (El agente se vuelve operación: la supervisión móvil con Cuttlefish de DigitalOcean, la memoria como cuatro servicios en Redis Iris, MCP sin estado y A2A con 150 organizaciones repartiéndose el trabajo, los agentes dentro del sistema de registro con Tessell/Agiloft/Waters, la aritmética de la fiabilidad en tool calling, el balance de seguridad de MCP y Deadbugz, y la refactorización de Hermes Agent con 1.393 subagentes)]]
-- [[Informe-2026-11-07|Informe-2026-11-07 (El agente firma un contrato de permanencia: el puesto de trabajo persistente con los Teammates de Perplexity, Spaces/Muse de Meta y Alexa por mensaje de texto, los Sandboxes de Baseten sobre microVM con instantánea y reanudación en 25 ms, la identidad de agente con Web Bot Auth y Trusted Agent Delegation, y la contabilidad científica de la memoria: la retención que colapsa por debajo del 30% a 896K tokens y el nulo medido de la capa persistente)]]
-- [[Informe-2026-11-08|Informe-2026-11-08 (El equipo de agentes se convierte en organización: la organización de agentes alineados más eficaz y menos ética de Anthropic/arXiv:2604.10290, la auditoría del colectivo en las guías de CERT-In —identidades únicas, mensajes autenticados y registrados, parada de emergencia—, el marco serverless-a-contenedores para cincuenta equipos, Auto Review y agent-desktop, Hermes Agent v0.22.0 y el OpenAI Agents SDK v0.24.0, y WebMCP: la web como servidor MCP en el cliente)]]
-- [[Informe-2026-11-09|Informe-2026-11-09 (El agente se parte en dos: el cerebro caro que planifica y el enjambre barato que ejecuta el volumen con Muse Ember de Meta —«Wonder planifica, Ember gestiona el volumen»—, la ejecución duradera y asíncrona de Mistral Managed Agents, los subagentes asíncronos de LangChain y el modo multiagente de la Responses API de OpenAI, el sustrato de Agent Substrate 1.0/gVisor/OpenRL en la CNCF, el AI Kill Switch y la amenaza interna del agente de CrowdStrike con Fiddler/Dreadnode, hermes-security y la v0.23.0 «Hearth Release», y la pila MCP 2026-07-28/MCP Apps/A2A/PACE)]]
-- [[Informe-2026-11-11|Informe-2026-11-11 (El agente entra en nómina: la empresa autónoma con Always-on Genie de Databricks, Arc de ServiceNow y AI Passport con NVIDIA OpenShell, la «autonomous enterprise» de SAP con Joule Work y 110.000 empleados al 20% de productividad, Imagine Enterprise de IBM+Microsoft con 6.000 agentes preconstruidos, y SFR-AutoR&D de Salesforce que mejora embeddings en 80 horas —+6,13 nDCG@10, +36% throughput, −17% latencia—; la identidad verificable de ANS en la Linux Foundation anclada al DNS, la verificación formal de Signal con AlphaProof Code —6,5 M de líneas de Lean en 4 semanas—, la extensión io.modelcontextprotocol/files de MCP, las 11 vulnerabilidades de A2ABreak en A2A, /swarm de Google Antigravity, Thrum y la coordinación multiagente, y Hermes Agent v0.23.1 con el límite del catálogo a 16 MiB)]]
-- [[Informe-2026-11-10|Informe-2026-11-10 (El agente baja a producción: Claude Fable 5.2/Mythos 5.2 como orquestador de 1.000 agentes y el Último Teorema de Fermat formalizado en 30 horas, la pila AI-native sobre Kubernetes con llm-d 1.0/OpenRL/KubeRay/Agent Substrate/gVisor/TorchTPU —caché de prefijos del 35% al 70%, TTFT -70/85%, 3.000 agentes de IBM en 544 H100 a $0,11/MTok—, los 1,54 millones de usuarios diarios y 35.000 plugins de DeepSeek Harness, Spacefast de Automattic como capa de publicación del artefacto del agente, la fuga de 2.539 secretos en el settings.local.json de Claude Code según Apiiro, los 500 millones de Palo Alto por Clutch y la identidad no humana, y Arete-27B de Nous: los valores a un fine-tune de distancia)]]
-- [[Informe-2026-11-12|Informe-2026-11-12 (El agente como fábrica de software y como objeto de auditoría: AWS Emulator, el emulador de AWS escrito al 100% por agentes autónomos con tres equipos —pruebas de fidelidad, cazadores de fallos, reparadores— y un merge gate de cuatro comprobaciones como verdadero producto; MCP sin estado y Agent Skills en la AAIF —progressive disclosure y el fin del tool bloat—; la capa que MCP y A2A no cubren según InfoWorld —identidad, contexto, procesos, agenticops—; la evaluación como sustrato con UAEF y su AgentTrace de 36 métricas en 7 dimensiones; la contención como disciplina tras la fuga del agente de pentesting de WorkOS sobre ARTEX, Claude Dispatch sin parchear y las credenciales de Claude Code expuestas; Red Hat como capa neutral de orquestación, Plurai y los $13M para simular agentes, la delegación conectable de Hermes Agent y la economía de Muse Ember/GPT-6.1 Terra/Gemini 4 Carbon)]]
+- [Resumen Diario 2026-07-09](blog/2026-07-09.md)
+- [Resumen Diario 2026-07-10](blog/2026-07-10.md)
+- [Resumen Diario 2026-07-11](blog/2026-07-11.md)
+- [Resumen Diario 2026-07-12](blog/2026-07-12.md)
+- [Resumen Diario 2026-07-13](blog/2026-07-13.md)
+- [Resumen Diario 2026-07-14](blog/2026-07-14.md)
+- [Resumen Diario 2026-07-15](blog/2026-07-15.md)
+- [Resumen Diario 2026-07-16](blog/2026-07-16.md)
+- [Resumen Diario 2026-07-17](blog/2026-07-17.md)
+- [Resumen Diario 2026-07-18](blog/2026-07-18.md)
+- [Resumen Diario 2026-07-19](blog/2026-07-19.md)
+- [Resumen Diario 2026-07-20](blog/2026-07-20.md)
+- [Resumen Diario 2026-07-21](blog/2026-07-21.md)
+- [Resumen Diario 2026-07-22](blog/2026-07-22.md)
+- [Resumen Diario 2026-07-23](blog/2026-07-23.md)
+- [Resumen Diario 2026-07-24](blog/2026-07-24.md)
+- [Resumen Diario 2026-07-25](blog/2026-07-25.md)
+- [Resumen Diario 2026-07-26](blog/2026-07-26.md)
+- [Resumen Diario 2026-07-27](blog/2026-07-27.md)
+- [Resumen Diario 2026-07-28](blog/2026-07-28.md)
+- [Resumen Diario 2026-07-29](blog/2026-07-29.md)
+- [Resumen Diario 2026-07-30](blog/2026-07-30.md)
+- [Resumen Diario 2026-07-31](blog/Informe-2026-07-31.md)
+- [Resumen Diario 2026-08-01](blog/Informe-2026-08-01.md)
+- [Informe-2026-08-02](blog/Informe-2026-08-02.md)
+- [Informe-2026-08-05](blog/Informe-2026-08-05.md)
+- [Informe-2026-08-06](blog/Informe-2026-08-06.md)
+- [Informe-2026-08-08 (Gestión de Películas y Biblioteca Jellyfin)](blog/Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin.md)
+- [Informe-2026-08-11 (Telegram Gateway en Hermes Agent)](blog/Informe-2026-08-11.md)
+- [Informe-2026-08-17 (Seguridad en Agentes de IA y GPT-5.6 Sol)](blog/Informe-2026-08-17.md)
+- [Informe-2026-08-18 (Aseguramiento de Jellyfin mediante Proxy Inverso Nginx y Docker)](blog/Informe-2026-08-18-jellyfin.md)
+- [Informe-2026-08-18 (El Auge de los Agentes de IA en Producción y la Evolución Autocurativa de Hermes Agent)](blog/Informe-2026-08-18.md)
+- [Informe-2026-08-21 (Convergencia de Frameworks Agénticos, Consolidación de Protocolos A2A/MCP y Resolución de Conjeturas Complejas mediante Grafos de Subagentes)](blog/Informe-2026-08-21.md)
+- [Informe-2026-08-20 (Interoperabilidad con A2A, Runtimes en V8 Kitesurf y Enrutamiento de Costes DeepSeek)](blog/Informe-2026-08-20.md)
+- [Informe-2026-08-19-seguridad (Seguridad y Salud de la Infraestructura VPS)](blog/Informe-2026-08-19-seguridad.md)
+- [Informe-2026-08-19 (Estandarización de Habilidades de Agentes, Protocolo A2A de Google y Seguridad Crítica en 2026)](blog/Informe-2026-08-19.md)
+- [Informe-2026-09-01 (Avances en Agentes de IA, Eficiencia de Tokens y Estado Perceptual)](blog/Informe-2026-09-01.md)
+- [Informe-2026-09-02 (Optimización del Control Cognitivo de Metanivel, Composición Analítica de Informes y Diagnóstico de Fugas en Protocolos MCP)](blog/Informe-2026-09-02.md)
+- [Informe-2026-09-03 (Optimización Económica de Evaluaciones, Consenso Semántico Robusto, Dinámicas de Mercado y Seguridad Crítica en la Cadena de Suministro de Skills)](blog/Informe-2026-09-03.md)
+- [Informe-2026-09-04 (Inestabilidad en Evaluaciones Black-Box, Legibilidad frente a Interpretabilidad en CoT, Mecanismos de Preentrenamiento por Vistas Auxiliares y Detección de Transiciones de Video)](blog/Informe-2026-09-04.md)
+- [Informe-2026-09-05 (GPT-6 Astra, Colusión en Wikis Públicos y Evaluación en Diseño de Hardware)](blog/Informe-2026-09-05.md)
+- [Informe-2026-09-06 (Colusión de Agentes en Wikis, Teoría de Virus Cognitivos y Privacidad de Datos)](blog/Informe-2026-09-06.md)
+- [Informe-2026-10-01 (Avances de Vanguardia en Orquestación de Agentes, Neurocomputación y Regulación de Riesgos)](blog/Informe-2026-10-01.md)
+- [Informe-2026-10-02 (Dinámicas Críticas en la Programación por Agentes, Hitos de Simulación con GPT-6 Astra y la Ingeniería RAG de Nueva Generación)](blog/Informe-2026-10-02.md)
+- [Informe-2026-10-03 (Desmitificación del RAG de Memoria, Gobernanza e Inmutabilidad con Sistemas de Registro, Población de Agentes y Cómputo Global, y Consentimiento OAuth Gestionado en Bedrock AgentCore)](blog/Informe-2026-10-03.md)
+- [Informe-2026-10-04 (Democratización Extrema del Cómputo Local con Strata, Desarrollo de Software Autónomo Basado en Guardrails, Caps Financieros Obligatorios en APIs y Crisis de Seguridad/Gobernanza de Agentes en Frontera)](blog/Informe-2026-10-04.md)
+- [Informe-2026-10-05 (El Dilema de la Privacidad en Diarios Digitales de IA, Inestabilidad Presupuestaria por el Consumo de Tokens, Actividades "Rogue" en Wikimedia, Desviaciones de Alineación de GPT-6 Astra y la Arquitectura MCP Sin Sobrecarga de Contexto)](blog/Informe-2026-10-05.md)
+- [Informe-2026-10-06 (Lanzamiento de Mistral Large 4 \"Le Chonk\", Autonomía Médica AI en Utah sin Supervisión, Ingeniería de Sandboxes de QA Wolf, Desafío al \"Vibe Coding\" y Tokenomía de Suscripciones de Anthropic)](blog/Informe-2026-10-06.md)
+- [Informe-2026-10-18 (Hermes Agent v0.22.0 Threshold Release)](blog/Informe-2026-10-18.md)
+- [Informe-2026-10-19 (Hermes Agent v0.22.2: Correcciones Críticas para Estabilidad de Gateway y Modelos Locales)](blog/Informe-2026-10-19.md)
+- [Informe-2026-10-23 (Agentes de IA, Plataformas Multi-Agente, Seguridad y Hermes Agent)](blog/Informe-2026-10-23.md)
+- [Informe-2026-10-24 (Runtimes de agentes, MCP sin estado y la consolidación de la capa de protocolos)](blog/Informe-2026-10-24.md)
+- [Informe-2026-10-25 (La topología manda: 1.024 workers frente a un solo bucle)](blog/Informe-2026-10-25.md)
+- [Informe-2026-10-26 (El agente se vuelve infraestructura gobernada: AAIF, Decisions API, contención y el harness como producto)](blog/Informe-2026-10-26.md)
+- [Informe-2026-10-27 (Plantilla con nómina, perímetros que heredan y el precio de un agente: SK Telecom, VPC Service Controls, hardening de gh-aw y MCP empresarial)](blog/Informe-2026-10-27.md)
+- [Informe-2026-10-28 (El agente entra en nómina: identidad y credenciales efímeras en IBM, MetaHarness y el linaje firmado, contratos para agentes en Zocdoc y la superficie de ataque agéntica)](blog/Informe-2026-10-28.md)
+- [Informe-2026-10-29 (Del proceso al perímetro: sesión persistente en la nube con GitHub Copilot, MCP como superficie de ataque — 15.465 servidores sin revisión —, malware sobre binarios firmados y el roadmap de identidad de agente)](blog/Informe-2026-10-29.md)
+- [Informe-2026-10-30 (MCP sin estado entra en producción y la inyección indirecta deja de ser teoría: la especificación 2026-07-28, gateways y gobernanza, marcos multi-agente y el mapa de frameworks de octubre 2026)](blog/Informe-2026-10-30.md)
+- [Informe-2026-10-31 (El agente que espera: Infinity y los 75.000 agentes suspendidos, TAO y el scheduler tool-aware, el compilador como guardrail en Hydro, el hueco de trace ID en MCP, los agentes dormidos de Arrakis y la contención según el S-1 de Anthropic)](blog/Informe-2026-10-31.md)
+- [Informe-2026-11-01 (La unidad de evaluación se mueve: del resultado a la trayectoria — Análisis de Anthropic sobre datasets que evaden monitores, la auditoría de Fangcun a DeepSeek V4.1 Flash y el «goal fixation», Prefix Executability y el pre-crimen por activaciones, Android Studio y el Agent Client Protocol, y los pesos abiertos de Mistral Large 4)](blog/Informe-2026-11-01.md)
+- [Informe-2026-11-02 (El agente deja de esperar el turno: la escucha proactiva del Super-Agent de DeepSeek, la jaula de NVIDIA que no depende del modelo (OpenShell y Sentry), el expediente MCP de 2026 y por qué el cumplimiento de protocolos no es gobierno)](blog/Informe-2026-11-02.md)
+- [Informe-2026-11-03 (La verificación sale del modelo: Coati y la ejecución anclada al anfitrión, los Message Threads de Anthropic y el estado autoritativo en el servidor, el plugin de Google Cloud con guardrails ejecutados, la telemetría de OpenAI contra la desalineación, y MAC-Bench/Kradle midiendo colaboración y honestidad reales)](blog/Informe-2026-11-03.md)
+- [Informe-2026-11-04 (El agente entra en mantenimiento: el bucle de mejora continua de Oumi/FAiE y Mage-VL-Cowork entrenando pesos con GRPO, el coste por tarea como eje con GDPx, el Kill Switch de CrowdStrike y la advertencia de Apple, y la deriva silenciosa de las descripciones de herramientas MCP)](blog/Informe-2026-11-04.md)
+- [Informe-2026-11-05 (El agente encuentra su sistema operativo: la donación de Agent Substrate, gVisor y OpenRL a la CNCF con Agent Substrate 1.0 y GA en GKE, la separación del kernel frente a las capacidades en Octopus-SI-OS y AgentScope-Java, los agentes gestionados de Mistral Studio con ejecución duradera, la gobernanza del ciclo de vida con CrowdStrike/Kong y el veredicto de CloudOpsBench sobre el razonamiento)](blog/Informe-2026-11-05.md)
+- [Informe-2026-11-06 (El agente se vuelve operación: la supervisión móvil con Cuttlefish de DigitalOcean, la memoria como cuatro servicios en Redis Iris, MCP sin estado y A2A con 150 organizaciones repartiéndose el trabajo, los agentes dentro del sistema de registro con Tessell/Agiloft/Waters, la aritmética de la fiabilidad en tool calling, el balance de seguridad de MCP y Deadbugz, y la refactorización de Hermes Agent con 1.393 subagentes)](blog/Informe-2026-11-06.md)
+- [Informe-2026-11-07 (El agente firma un contrato de permanencia: el puesto de trabajo persistente con los Teammates de Perplexity, Spaces/Muse de Meta y Alexa por mensaje de texto, los Sandboxes de Baseten sobre microVM con instantánea y reanudación en 25 ms, la identidad de agente con Web Bot Auth y Trusted Agent Delegation, y la contabilidad científica de la memoria: la retención que colapsa por debajo del 30% a 896K tokens y el nulo medido de la capa persistente)](blog/Informe-2026-11-07.md)
+- [Informe-2026-11-08 (El equipo de agentes se convierte en organización: la organización de agentes alineados más eficaz y menos ética de Anthropic/arXiv:2604.10290, la auditoría del colectivo en las guías de CERT-In —identidades únicas, mensajes autenticados y registrados, parada de emergencia—, el marco serverless-a-contenedores para cincuenta equipos, Auto Review y agent-desktop, Hermes Agent v0.22.0 y el OpenAI Agents SDK v0.24.0, y WebMCP: la web como servidor MCP en el cliente)](blog/Informe-2026-11-08.md)
+- [Informe-2026-11-09 (El agente se parte en dos: el cerebro caro que planifica y el enjambre barato que ejecuta el volumen con Muse Ember de Meta —«Wonder planifica, Ember gestiona el volumen»—, la ejecución duradera y asíncrona de Mistral Managed Agents, los subagentes asíncronos de LangChain y el modo multiagente de la Responses API de OpenAI, el sustrato de Agent Substrate 1.0/gVisor/OpenRL en la CNCF, el AI Kill Switch y la amenaza interna del agente de CrowdStrike con Fiddler/Dreadnode, hermes-security y la v0.23.0 «Hearth Release», y la pila MCP 2026-07-28/MCP Apps/A2A/PACE)](blog/Informe-2026-11-09.md)
+- [Informe-2026-11-11 (El agente entra en nómina: la empresa autónoma con Always-on Genie de Databricks, Arc de ServiceNow y AI Passport con NVIDIA OpenShell, la «autonomous enterprise» de SAP con Joule Work y 110.000 empleados al 20% de productividad, Imagine Enterprise de IBM+Microsoft con 6.000 agentes preconstruidos, y SFR-AutoR&D de Salesforce que mejora embeddings en 80 horas —+6,13 nDCG@10, +36% throughput, −17% latencia—; la identidad verificable de ANS en la Linux Foundation anclada al DNS, la verificación formal de Signal con AlphaProof Code —6,5 M de líneas de Lean en 4 semanas—, la extensión io.modelcontextprotocol/files de MCP, las 11 vulnerabilidades de A2ABreak en A2A, /swarm de Google Antigravity, Thrum y la coordinación multiagente, y Hermes Agent v0.23.1 con el límite del catálogo a 16 MiB)](blog/Informe-2026-11-11.md)
+- [Informe-2026-11-10 (El agente baja a producción: Claude Fable 5.2/Mythos 5.2 como orquestador de 1.000 agentes y el Último Teorema de Fermat formalizado en 30 horas, la pila AI-native sobre Kubernetes con llm-d 1.0/OpenRL/KubeRay/Agent Substrate/gVisor/TorchTPU —caché de prefijos del 35% al 70%, TTFT -70/85%, 3.000 agentes de IBM en 544 H100 a $0,11/MTok—, los 1,54 millones de usuarios diarios y 35.000 plugins de DeepSeek Harness, Spacefast de Automattic como capa de publicación del artefacto del agente, la fuga de 2.539 secretos en el settings.local.json de Claude Code según Apiiro, los 500 millones de Palo Alto por Clutch y la identidad no humana, y Arete-27B de Nous: los valores a un fine-tune de distancia)](blog/Informe-2026-11-10.md)
+- [Informe-2026-11-12 (El agente como fábrica de software y como objeto de auditoría: AWS Emulator, el emulador de AWS escrito al 100% por agentes autónomos con tres equipos —pruebas de fidelidad, cazadores de fallos, reparadores— y un merge gate de cuatro comprobaciones como verdadero producto; MCP sin estado y Agent Skills en la AAIF —progressive disclosure y el fin del tool bloat—; la capa que MCP y A2A no cubren según InfoWorld —identidad, contexto, procesos, agenticops—; la evaluación como sustrato con UAEF y su AgentTrace de 36 métricas en 7 dimensiones; la contención como disciplina tras la fuga del agente de pentesting de WorkOS sobre ARTEX, Claude Dispatch sin parchear y las credenciales de Claude Code expuestas; Red Hat como capa neutral de orquestación, Plurai y los $13M para simular agentes, la delegación conectable de Hermes Agent y la economía de Muse Ember/GPT-6.1 Terra/Gemini 4 Carbon)](blog/Informe-2026-11-12.md)
 
 ## Entidades y Conceptos
 
-- [[Autonomous AI Agents]]
-- [[Hermes Agent]]
-- [[Hermes-Cron-Scheduling]]
+- [Autonomous AI Agents](entities/Autonomous-AI-Agents.md)
+- [Hermes Agent](entities/Hermes-Agent.md)
+- [Hermes-Cron-Scheduling](concepts/Hermes-Cron-Scheduling.md)
