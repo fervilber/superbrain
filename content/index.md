@@ -4,6 +4,7 @@ Bienvenido al cerebro centralizado de conocimiento.
 
 ## Sesiones Técnicas
 
+- [2026-11-24 — Murmur sobre Hermes Agent en el VPS (instalación sin Docker, túnel SSH y el incidente del cgroup)](sessions/2026-11-24-murmur-hermes-vps.md)
 - [2026-11-13 — Biblioteca Calibre autoalojada en el VPS (instalación sin root, systemd de usuario y /libros)](sessions/2026-11-13-biblioteca-calibre-vps.md)
 - [2026-08-23 — Hardening de Seguridad del VPS](sessions/2026-08-23-seguridad-vps.md)
 
