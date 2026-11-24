@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PREFIX = "superbrain/prueba"
 HOST = "bolsafer.duckdns.org"
 APPROVED = (
-    "blog/Informe-2026-11-22.md",
+    "blog/Informe-2026-11-20.md",
     "blog/Informe-2026-11-23.md",
 )
 # Fail closed: do not rewrite unknown private paths or replace secrets in place.
@@ -42,6 +42,14 @@ def main() -> None:
     target = Path(os.environ.get("SUPERBRAIN_PREVIEW_OUTPUT", str(ROOT / "public" / "prueba"))).resolve()
     if target == ROOT / "public" or ROOT not in target.parents:
         raise RuntimeError("La prueba debe permanecer bajo public/ y no sustituir el sitio actual")
+    registry = json.loads((ROOT / "publication-review.json").read_text())
+    states = {item["ruta"]: item["estado"] for item in registry["informes"]}
+    if len(states) != registry["expected_total"] or set(states) != set(
+        subprocess.check_output(["git", "ls-files", "content/blog/*.md"], cwd=ROOT, text=True).splitlines()
+    ):
+        raise RuntimeError("El registro de revisión no cubre exactamente los informes rastreados")
+    if any(states.get("content/" + item) != "aprobacion_preliminar" for item in APPROVED):
+        raise RuntimeError("La prueba contiene informes no aprobados preliminarmente")
     with tempfile.TemporaryDirectory(prefix="superbrain-preview-") as tmp:
         stage = Path(tmp)
         for name in ("quartz", "node_modules", ".quartz", "quartz.lock.json", "package.json", "quartz.ts", "tsconfig.json", "globals.d.ts", "index.d.ts"):

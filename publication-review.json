@@ -1,0 +1,567 @@
+{
+  "version": 1,
+  "alcance": "Informe de revisión preliminar; prohibido usarlo como autorización de corte",
+  "expected_total": 112,
+  "informes": [
+    {
+      "ruta": "content/blog/2026-07-03.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-04.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-08.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-09.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-10.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-11.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-12.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-13.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-14.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-15.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-16.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-17.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-18.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/2026-07-19.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-20.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-21.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-22.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-23.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-24.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-25.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-26.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/2026-07-27.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-28.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-29.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/2026-07-30.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-07-30.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-07-31.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-01.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-02.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-03.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-04.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-05.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-06-tv-en-vivo-jellyfin.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-06.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-08-gestion-archivos-grandes-biblioteca-jellyfin.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-11.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-17-bandera-murcia.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-17.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-18-jellyfin.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-18.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-19-seguridad.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-19.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-20.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-21-seguridad.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-21.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-22-seguridad.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-22.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-23-seguridad.md",
+      "estado": "bloqueado",
+      "motivo": "Exposición de datos operativos personales/internos; requiere redacción y revisión humana."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-24.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-26.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-28.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-29.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-08-30.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-01.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-02.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-03.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-04.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-05.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-06.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-09.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-12.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-16.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-19.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-23.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-27.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-09-29.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-01.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-02.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-03.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-04.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-05.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-06.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-07.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-09.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-10.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-12.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-13.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-16.md",
+      "estado": "bloqueado",
+      "motivo": "Contenido/procedencia no publicable sin corrección editorial o enlaces internos excluidos."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-18.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-19.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-23.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-24.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-25.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-26.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-27.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-28.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-29.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-30.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-10-31.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-01.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-02.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-03.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-04.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-05.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-06.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-07.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-08.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-09.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-10.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-11.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-12.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-13.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-14.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-15.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-16.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-17.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-18.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-19.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-20.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-21.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-22.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-23.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    }
+  ]
+}
