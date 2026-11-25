@@ -1,7 +1,7 @@
 {
   "version": 1,
   "alcance": "Informe de revisión preliminar; prohibido usarlo como autorización de corte",
-  "expected_total": 112,
+  "expected_total": 114,
   "informes": [
     {
       "ruta": "content/blog/2026-07-03.md",
@@ -562,6 +562,16 @@
       "ruta": "content/blog/Informe-2026-11-23.md",
       "estado": "aprobacion_preliminar",
       "motivo": "Revisión de 4 lotes: candidato; confirmar enlaces/recursos en build antes de publicar."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-24.md",
+      "estado": "pendiente_corregir",
+      "motivo": "Revisión editorial, procedencia y/o referencias internas pendientes; ver auditoría de lotes."
+    },
+    {
+      "ruta": "content/blog/Informe-2026-11-25.md",
+      "estado": "aprobacion_preliminar",
+      "motivo": "Revisión preliminar de la ingesta del 2026-11-25: frontmatter YAML válido, Markdown renderizable, fuentes primarias enlazadas, sin rutas de host, IP, correos, credenciales ni referencias a raw/sesiones/logs; confirmar enlaces/recursos en build antes de publicar."
     }
   ]
 }
