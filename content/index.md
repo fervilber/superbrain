@@ -100,6 +100,8 @@ Bienvenido al cerebro centralizado de conocimiento.
 
 - [Informe-2026-11-25 (El servidor MCP se convierte en agente y la frontera del sistema se muda a la red: Skills over MCP, Tasks y Elicitation en GA con File Uploads fuera del contexto; Foundry lleva el agente alojado a producción con salida de red aplicada fuera del sandbox, CA privada sin apagar TLS y ejecución resiliente; el Agent Host Protocol de GitHub y el modo multiagente de la Responses API; el Internet of Agentics de arXiv:2611.03066 como marco de autonomía confiable; el credential-stealer en agent-framework 1.26.1/1.26.2 y la semana de avisos de MCP donde «read-only» deja de ser propiedad de seguridad; y Hermes Agent v0.23.4 con Gemini 4 vía Nous Portal/OpenRouter/Vertex)](blog/Informe-2026-11-25.md)
 
+- [Informe-2026-11-26 (El protocolo se convierte en peaje obligatorio y la defensa pasa de filtrar texto a juzgar intención: Workspace MCP obligatorio desde febrero de 2027 y con tarifas desde abril, las Semantic governance policies de Google bajan AgentDojo del 48,7 % al 0,9 %, el agente de Cairn explota un zero-day en 11 minutos, la FCA y Meta Muse entran en el bucle regulatorio, el runtime de horizonte largo de Salesforce llega a GA con Hunter y ShellBench pone nota honesta a la fiabilidad real)](blog/Informe-2026-11-26.md)
+
 ## Entidades y Conceptos
 
 - [Autonomous AI Agents](entities/Autonomous-AI-Agents.md)
